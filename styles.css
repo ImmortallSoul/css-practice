@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.header {
+  height: 30vh;
+  background-color: #007bff;
+  display: flex;
+  justify-content: flex-start; /* по горизонталі - зліва */
+  align-items: center;         /* по вертикалі - по центру */
+  padding-left: 10px;
+}
+.main {
+  height: 40vh;
+  background-color: #28a745;
+  display: flex;
+  justify-content: center;     /* по горизонталі - по центру */
+  align-items: center;         /* по вертикалі - по центру */
+}
+.footer {
+  height: 30vh;
+  background-color: #ffc107;
+  display: flex;
+  justify-content: flex-end;   /* по горизонталі - праворуч */
+  align-items: center;         /* по вертикалі - по центру */
+  padding-right: 10px;
+}
+.text {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
